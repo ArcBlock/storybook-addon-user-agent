@@ -13,6 +13,14 @@ export const UA_LIST = {
     name: 'Chrome (69.0) - Mac',
     ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 ',
   },
+  wechat: {
+    name: 'Wechat',
+    ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  },
+  abtWalletAndroid: {
+    name: 'ABT Wallet Android',
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 ABTWallet/2.2.23',
+  },
   android4: {
     name: 'Android (4.0.2) Browser - Galaxy Nexus',
     ua: 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
