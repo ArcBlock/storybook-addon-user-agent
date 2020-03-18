@@ -1,6 +1,6 @@
 {
-  "name": "storybook-addon-user-agent",
-  "version": "0.0.0",
+  "name": "@arcblock/storybook-addon-user-agent",
+  "version": "0.1.0",
   "description": "Addon to provide a user-agent switcher for storybook",
   "main": "dist/index.js",
   "scripts": {
