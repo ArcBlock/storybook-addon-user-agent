@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Addon to provide a user-agent switcher for storybook",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c"
