@@ -19,7 +19,11 @@ export const UA_LIST = {
   },
   abtWalletAndroid: {
     name: 'ABT Wallet Android',
-    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 ABTWallet/2.2.23',
+    ua: 'Mozilla/5.0 (Linux; Android 9; MIX 2 Build/PKQ1.190118.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 ABTWallet/2.3.24',
+  },
+  abtWalletIOS: {
+    name: 'ABT Wallet iOS',
+    ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B176 Safari/7534.48.3 ABTWallet/2.3.24',
   },
   android4: {
     name: 'Android (4.0.2) Browser - Galaxy Nexus',
