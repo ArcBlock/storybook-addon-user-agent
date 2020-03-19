@@ -25,7 +25,6 @@ class UASwitcher extends React.Component {
 
   changeUA = ua => {
     if (ua !== this.state.currentUA) {
-      console.log("switcher.render", { state: this.state, props: this.props });
       this.setState({ currentUA: ua }, () => {
         // update iframe
         this.updateUA();
@@ -74,8 +73,6 @@ class UASwitcher extends React.Component {
     const { active } = this.props;
 
     if (!active) return null;
-
-    console.log("switcher.render", { state: this.state, props: this.props });
 
     return (
       <Container>
